@@ -54,7 +54,6 @@ bot.command("kaydet", (ctx) => {
 })
 //Current
 bot.command("anlikdurum", async (ctx) => {
-  console.log(CURRENT_URL)
   if (CURRENT_URL === "error") {
     ctx.reply("Şehri kaydetmemişşin. Şehri kaydet ve tekrar dene")
   } else {
